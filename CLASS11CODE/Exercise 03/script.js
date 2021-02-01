@@ -15,9 +15,12 @@ console.log(depInput, depBtn, withInput, withBtn, exitBtn, depResult, withResult
 
 let currentAmount = 5000;
 
+
 depBtn.addEventListener('click', function(){
-    function deposit(currentAmount, userAmount){
-        return currentAmount + userAmount;
+    function deposit(amount, userAmount){
+        amount += userAmount;
+        currentAmount = amount;
+        return amount;
     }
     
     depResult.innerText = (`Your current balance: ${deposit(currentAmount, parseInt(depInput.value))} euro;`)
@@ -25,8 +28,10 @@ depBtn.addEventListener('click', function(){
 
 
 withBtn.addEventListener('click', function(){
-    function withdraw(currentAmount, userAmount){
-        return currentAmount + userAmount;
+    function withdraw(amount, userAmount){
+        amount -= userAmount;
+        currentAmount = amount;
+        return amount;
     }
 
     withResult.innerText = (`Your current balance: ${withdraw(currentAmount, parseInt(withInput.value))} euro;`)
