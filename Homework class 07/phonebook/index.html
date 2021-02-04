@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+    <title>JS Phonebook Homework</title>
+</head>
+<body>
+    <form action = "" method="POST">
+        <fieldset>
+            <legend>Enter your phonebook info</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="first-name">First name</label>
+                            <input type="text" id="first-name" placeholder="Enter first name:"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="last-name">Last name</label>
+                            <input type="text" id="last-name" placeholder="Enter last name:" />        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="home-number">Home phone number</label>
+                            <input type="tel" id="home-number" pattern="[0-9]{2}-[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="02-3-111-111"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="mobile-number">Mobile phone number</label>
+                            <input type="tel" id="mobile-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="070-111-111"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button"  id="saveBtn">Save my info</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset> 
+    </form>
+    
+    <p>
+        <ol id="result"></ol>
+    </p>
+
+
+<script src="script.js"></script>
+</body>
+</html>

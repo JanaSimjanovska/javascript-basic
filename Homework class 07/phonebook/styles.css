@@ -1,0 +1,47 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+}
+
+legend {
+    font-size: large;
+    color: white;
+    background-color: rgb(61, 61, 119);
+    padding: 0.5rem;
+}
+
+tbody {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+input {
+    background-color: rgb(214, 214, 214);
+    padding: 00.5rem;
+}
+
+button {
+    background-color: rgb(143, 143, 219);
+    border: none;
+    padding: 00.5rem;
+    color: white;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: rgb(61, 61, 119);
+}
+
+button:focus {
+    background-color: rgb(228, 91, 91);
+}
