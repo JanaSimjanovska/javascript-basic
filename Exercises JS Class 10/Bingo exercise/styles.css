@@ -1,0 +1,58 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+legend {
+    height: 40px;
+    width: fit-content;
+    background-color: #ff7b8a;
+    color: white;
+    text-justify: auto
+}
+
+fieldset {
+    width: 50%;
+    margin: auto;
+    
+}
+
+.input-container {
+    margin: 0.5rem;
+}
+
+label {
+    margin-right: 0.5rem;
+}
+
+input {
+    height: 30px;
+    width: 176px;
+}
+
+button {
+    height: 40px;
+    width: 200px;
+    margin: 1rem;
+    border: none;
+    background-color: #ff7b8a;
+    color: white;
+    font-size: 18px;
+    outline: none;
+}
+
+button:active {
+    background-color: #F75C64;
+    
+}
+h1 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}

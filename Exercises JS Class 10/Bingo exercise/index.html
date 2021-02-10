@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <fieldset>
+            <legend>Choose your lucky numbers</legend>
+            <div id="flex-wrapper"> 
+                
+                <div class="input-container">
+                    <label for="firstNumber">Number 1</label>
+                    <input id="firstNumber" type="number" placeholder="Enter a number from 1-37:" />
+                </div>
+                <div class="input-container">
+                    <label for="secondNumber">Number 2</label>
+                    <input id="secondNumber" type="number" placeholder="Enter a number from 1-37:" />
+                </div>
+                <div class="input-container">
+                    <label for="thirdNumber">Number 3</label>
+                    <input id="thirdNumber" type="number" placeholder="Enter a number from 1-37:" />
+                </div>
+                <div class="input-container">
+                    <label for="fourthNumber">Number 4</label>
+                    <input id="fourthNumber" type="number" placeholder="Enter a number from 1-37:" />
+                </div>
+                <div class="input-container">
+                    <label for="fifthNumber">Number 5</label>
+                    <input id="fifthNumber" type="number" placeholder="Enter a number from 1-37:" />
+                </div>
+                
+                <button id="submitBtn" type="button">Submit numbers</button>
+            </div>
+        </fieldset>
+    </form>
+    <h1 id="lotteryResult"></h1>
+    <ol id="displayList"></ol>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
