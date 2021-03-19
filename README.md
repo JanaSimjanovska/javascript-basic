@@ -1,2 +1,2 @@
 # javascript-basic
-This is my repository for js homeworks.
+JS Basic homeworks for SEDC repository
