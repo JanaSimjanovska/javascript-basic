@@ -43,7 +43,7 @@ function check(array, array2, element){
 submitBtn.addEventListener("click", function(){
     let userCombo = [];
     
-    userCombo.push(parseInt(firstNumber.value),parseInt(secondNumber.value), parseInt(thirdNumber.value), parseInt(fourthNumber.value), parseInt(fifthNumber.value));
+    userCombo.push(parseInt(firstNumber.value), parseInt(secondNumber.value), parseInt(thirdNumber.value), parseInt(fourthNumber.value), parseInt(fifthNumber.value));
     check(userCombo, winningComboList, displayH1);
     firstNumber.value = '';
     secondNumber.value = '';
